@@ -12,6 +12,7 @@ jobs:
 
     steps:
     - name: Instalar dependencias
+      uses:
       run: |
         npm install
 
